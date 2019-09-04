@@ -10,7 +10,17 @@ module.exports = {
       */
       return queryInterface.bulkInsert('categoris', [
         {
-          name: 'Mie',
+          name: 'Promo',
+          createdAt: new Date(),
+          updatedAt: new Date(),
+        },
+        {
+          name: 'Makanan',
+          createdAt: new Date(),
+          updatedAt: new Date(),
+        },
+        {
+          name: 'Buah',
           createdAt: new Date(),
           updatedAt: new Date(),
         },

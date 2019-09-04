@@ -1,18 +1,23 @@
 const models = require('../models')
-const Categori = models.categori
+const Transaction = models.transaction
 
 exports.index=(req, res)=>{
-   Categori.findAll({
-      //  attributes: ['id', 'name','address','price','images']
-   }).then(categoris=>res.send(categoris))
+   Transaction.findAll({
+      attributes: ['id', 'tableNumber','finishedTime','subtotal','discount','serviceCharge','tax']
+   }).then(transactions=>res.send(transactions))
 }
 
 exports.store=(req, res)=>{
    const {
        tableNumber
    } = req.body
-   Categori.create({
+   Transaction.create({
       tableNumber: tableNumber,
-   }).then(categori=> res.send(categori))
+   }).then(transaction=> {
+      res.send({
+         id:transaction.id,
+         tableNumber:req.body.tableNumber
+      })
+   })
    .catch(err => res.send(err))
 }
