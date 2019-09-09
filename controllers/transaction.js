@@ -21,3 +21,44 @@ exports.store=(req, res)=>{
    })
    .catch(err => res.send(err))
 }
+
+exports.update=(req,res)=>{
+   Transaction.update({
+      tableNumber: req.body.tableNumber,
+      // finishedTime: req.body.finishedTime,
+      subtotal: req.body.subtotal,
+      discount: req.body.discount,
+      serviceCharge: req.body.serviceCharge,
+      tax: req.body.tax,
+      }, 
+      {
+      where: {
+         id: req.body.transactionId
+      }
+   })
+   .then((response) => {
+      res.send(response);
+      console.log(response)
+   })
+   .catch(err => {
+      res.send(err.message);
+   });
+ 
+}
+
+exports.updateTime=(req,res)=>{
+   Transaction.update({
+      finishedTime: req.body.finishedTime,
+      }, 
+      {
+      where: {
+         id: req.body.transactionId
+      }
+   })
+   .then((response) => {
+      res.send(response);
+   })
+   .catch(err => {
+      res.send(err.message);
+   });
+}
