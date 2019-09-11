@@ -15,6 +15,7 @@ module.exports = {
         price: 5000,
         createdAt: new Date(),
         updatedAt: new Date(),
+        image:'1.jpg'
       },
       {
         idCategori: 1,
@@ -22,6 +23,7 @@ module.exports = {
         price: 5000,
         createdAt: new Date(),
         updatedAt: new Date(),
+        image:'2.jpg'
       },
       {
         idCategori: 1,
@@ -29,6 +31,7 @@ module.exports = {
         price: 5000,
         createdAt: new Date(),
         updatedAt: new Date(),
+        image:'3.jpg'
       },
       {
         idCategori: 1,
@@ -36,6 +39,7 @@ module.exports = {
         price: 5000,
         createdAt: new Date(),
         updatedAt: new Date(),
+        image:'4.jpg'
       },
       {
         idCategori: 1,
@@ -43,6 +47,7 @@ module.exports = {
         price: 5000,
         createdAt: new Date(),
         updatedAt: new Date(),
+        image:'5.jpg'
       },
       {
         idCategori: 1,
@@ -50,6 +55,7 @@ module.exports = {
         price: 5000,
         createdAt: new Date(),
         updatedAt: new Date(),
+        image:'6.jpg'
       },
       {
         idCategori: 2,
@@ -57,6 +63,7 @@ module.exports = {
         price: 5000,
         createdAt: new Date(),
         updatedAt: new Date(),
+        image:'7.jpg'
       },
       {
         idCategori: 2,
@@ -64,6 +71,7 @@ module.exports = {
         price: 5000,
         createdAt: new Date(),
         updatedAt: new Date(),
+        image:'8.jpg'
       },
       {
         idCategori: 2,
@@ -71,6 +79,7 @@ module.exports = {
         price: 5000,
         createdAt: new Date(),
         updatedAt: new Date(),
+        image:'9.jpg'
       },
       {
         idCategori: 2,
@@ -78,6 +87,7 @@ module.exports = {
         price: 5000,
         createdAt: new Date(),
         updatedAt: new Date(),
+        image:'10.jpg'
       },
       {
         idCategori: 2,
@@ -85,6 +95,7 @@ module.exports = {
         price: 5000,
         createdAt: new Date(),
         updatedAt: new Date(),
+        image:'11.jpg'
       },
       {
         idCategori: 2,
@@ -92,6 +103,7 @@ module.exports = {
         price: 5000,
         createdAt: new Date(),
         updatedAt: new Date(),
+        image:'12.jpg'
       },
       {
         idCategori: 3,
@@ -99,6 +111,7 @@ module.exports = {
         price: 5000,
         createdAt: new Date(),
         updatedAt: new Date(),
+        image:'13.jpg'
       },
       {
         idCategori: 3,
@@ -106,6 +119,7 @@ module.exports = {
         price: 5000,
         createdAt: new Date(),
         updatedAt: new Date(),
+        image:'14.jpg'
       },
       {
         idCategori: 3,
@@ -113,6 +127,7 @@ module.exports = {
         price: 5000,
         createdAt: new Date(),
         updatedAt: new Date(),
+        image:'15.jpg'
       },
       {
         idCategori: 3,
@@ -120,6 +135,7 @@ module.exports = {
         price: 5000,
         createdAt: new Date(),
         updatedAt: new Date(),
+        image:'16.jpg'
       },
       {
         idCategori: 3,
@@ -127,6 +143,7 @@ module.exports = {
         price: 5000,
         createdAt: new Date(),
         updatedAt: new Date(),
+        image:'17.jpg'
       },
       {
         idCategori: 3,
@@ -134,6 +151,7 @@ module.exports = {
         price: 5000,
         createdAt: new Date(),
         updatedAt: new Date(),
+        image:'18.jpg'
       },
       {
         idCategori: 4,
@@ -141,6 +159,7 @@ module.exports = {
         price: 5000,
         createdAt: new Date(),
         updatedAt: new Date(),
+        image:'19.jpg'
       },
       {
         idCategori: 4,
@@ -148,6 +167,7 @@ module.exports = {
         price: 5000,
         createdAt: new Date(),
         updatedAt: new Date(),
+        image:'20.jpg'
       },
       {
         idCategori: 4,
@@ -155,6 +175,7 @@ module.exports = {
         price: 5000,
         createdAt: new Date(),
         updatedAt: new Date(),
+        image:'21.jpg'
       },
       {
         idCategori: 4,
@@ -162,6 +183,7 @@ module.exports = {
         price: 5000,
         createdAt: new Date(),
         updatedAt: new Date(),
+        image:'22.jpg'
       },
       {
         idCategori: 4,
@@ -169,6 +191,7 @@ module.exports = {
         price: 5000,
         createdAt: new Date(),
         updatedAt: new Date(),
+        image:'23.jpg'
       },
       {
         idCategori: 4,
@@ -176,6 +199,7 @@ module.exports = {
         price: 5000,
         createdAt: new Date(),
         updatedAt: new Date(),
+        image:'24.jpg'
       },
 
     ], {});
