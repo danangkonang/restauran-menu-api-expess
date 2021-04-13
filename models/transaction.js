@@ -1,4 +1,3 @@
-'use strict';
 module.exports = (sequelize, DataTypes) => {
   const transaction = sequelize.define('transaction', {
     tableNumber: DataTypes.INTEGER,
@@ -6,9 +5,10 @@ module.exports = (sequelize, DataTypes) => {
     subtotal: DataTypes.DOUBLE,
     discount: DataTypes.DOUBLE,
     serviceCharge: DataTypes.DOUBLE,
-    tax: DataTypes.DOUBLE
+    tax: DataTypes.DOUBLE,
   }, {});
-  transaction.associate = function(models) {
+  transaction.associate = function (models) {
+    console.log(models);
     // associations can be defined here
   };
   return transaction;
